@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+body {
+    margin: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary-background);
+    
+}
+
+:root {
+    --primary-background : #1a3c44;
+    --primary-background-container : #2b4f58;
+    --primary-foreground : #4eceb2;
+    --primary-white: #ecfffb;
+
+}
+
+nav {
+    background-color: var(--primary-foreground);
+    padding: 3%; 
+    
+}
+
+a {
+    padding-right: 3%;
+    text-decoration: none;
+    color: var(--primary-background);
+    font-size: 150%;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.body-container {
+    width: 40%;
+    margin: auto;
+    border: 3px solid var(--primary-foreground);
+    border-radius: 0.3rem;
+    margin-top: 5%;
+    padding:0 3%;
+    background-color: var(--primary-background-container);
+    
+}
+
+h1 {
+    text-align: center ;
+    color: var(--primary-white);
+    font-size: 3rem;
+}
+
+label {
+    margin-left: 12%;
+    font-size: 1.5rem;
+    color: var(--primary-foreground);
+
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+    border-color: var(--primary-white);
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-white);
+    color: var(--primary-background);
+    font-family: 'Montserrat', sans-serif;
+    border-width: 3px;
+    margin-bottom: 1.5rem;
+}
+.input-radio {
+    display: inline;
+    width: 10%;
+}
+input:hover {
+    
+    border-color: var(--primary-background);
+    transition: 0.7s;
+}
+
+p {
+    color: var(--primary-white);
+    opacity: 0.8;
+    font-size:1.3rem ;
+    margin: 0rem;
+    margin-left: 5%;
+}
+
+button {
+    padding:2%;
+    font-size: 1.3rem;
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 0.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.output-message {
+    color: var(--primary-white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 4%;
+}
