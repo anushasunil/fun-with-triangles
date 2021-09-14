@@ -8,7 +8,7 @@ checkButton.addEventListener("click", function area()
     const height = Number(baseAndHeight[1].value);
     const areaOfTriangle = calculateArea(base, height);
 
-    outputMessage.innerText = "The Area of the given triangle is " + areaOfTriangle
+    outputMessage.innerText = "The Area of the given triangle is " + areaOfTriangle + "sq.cm"
 
 })
 
