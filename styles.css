@@ -66,11 +66,9 @@ input {
     border-color: var(--primary-white);
     outline: none;
     font-size: 1.5rem;
-    border-radius: 0.5rem;
     background-color: var(--primary-white);
     color: var(--primary-background);
     font-family: 'Montserrat', sans-serif;
-    border-width: 3px;
     margin-bottom: 1.5rem;
 }
 .input-radio {
@@ -95,9 +93,10 @@ button {
     padding:2%;
     font-size: 1.3rem;
     width: 75%;
-    margin-left: 12%;
-    border-radius: 0.5;
+    margin-left: 12.5%;
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary-white);
+    font-weight: bold;
 }
 
 .output-message {
