@@ -1,6 +1,6 @@
 const inputs = document.querySelectorAll(".angles");
 const checkButton = document.querySelector(".btn-check");
-const message = document.querySelector(".result");
+const message = document.querySelector(".output-message");
 
 checkButton.addEventListener("click", function isTriangle()
 {
