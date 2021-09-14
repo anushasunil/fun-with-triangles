@@ -7,13 +7,11 @@ checkButton.addEventListener("click", function isTriangle()
     const sumOfAngles = calculateSum(inputs[0].value,inputs[1].value,inputs[2].value )
     if( sumOfAngles === 180)
     {
-        console.log("yesssssaaa");
-        message.innerText = "yesssssaaa"
+        message.innerText = "Yes! It is a triangle."
     }
     else
     {
-        console.log("nooooooooooooo");
-        message.innerText = "nooooooooooooo"
+        message.innerText = "Uh oh! It is not a Triangle."
     }
 })
 
