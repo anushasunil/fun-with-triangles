@@ -107,3 +107,48 @@ button {
     text-align: center;
     padding: 4%;
 }
+
+
+
+footer {
+    font-size: 1.5rem;
+    /* padding: 2rem 1rem; */
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin-top: 4%;
+
+}
+
+footer .link {
+    color: white;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+
+}
+
+footer .footer-header {
+    font-weight: bold;
+}
+
+footer .link:hover {
+    color: white;
+}
+
+.link {
+    max-width: min-content;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+  }
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
