@@ -2,8 +2,7 @@ const baseAndHeight = document.querySelectorAll(".base-and-height");
 const checkButton = document.querySelector(".btn-check");
 const outputMessage = document.querySelector(".output-message");
 
-checkButton.addEventListener("click", function area()
-{
+checkButton.addEventListener("click", function area() {
     const base = Number(baseAndHeight[0].value);
     const height = Number(baseAndHeight[1].value);
     const areaOfTriangle = calculateArea(base, height);
@@ -12,7 +11,6 @@ checkButton.addEventListener("click", function area()
 
 })
 
-function calculateArea(base, height)
-{
-    return 0.5*base*height;
+function calculateArea(base, height) {
+    return 0.5 * base * height;
 }

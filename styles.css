@@ -4,21 +4,21 @@ body {
     margin: 0rem;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--primary-background);
-    
+
 }
 
 :root {
-    --primary-background : #1a3c44;
-    --primary-background-container : #2b4f58;
-    --primary-foreground : #4eceb2;
+    --primary-background: #1a3c44;
+    --primary-background-container: #2b4f58;
+    --primary-foreground: #4eceb2;
     --primary-white: #ecfffb;
 
 }
 
 nav {
     background-color: var(--primary-foreground);
-    padding: 3%; 
-    
+    padding: 3%;
+
 }
 
 a {
@@ -40,13 +40,13 @@ a:hover {
     border: 3px solid var(--primary-foreground);
     border-radius: 0.3rem;
     margin-top: 5%;
-    padding:0 3%;
+    padding: 0 3%;
     background-color: var(--primary-background-container);
-    
+
 }
 
 h1 {
-    text-align: center ;
+    text-align: center;
     color: var(--primary-white);
     font-size: 3rem;
 }
@@ -71,12 +71,14 @@ input {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 1.5rem;
 }
+
 .input-radio {
     display: inline;
     width: 10%;
 }
+
 input:hover {
-    
+
     border-color: var(--primary-background);
     transition: 0.7s;
 }
@@ -84,14 +86,14 @@ input:hover {
 p {
     color: var(--primary-white);
     opacity: 0.8;
-    font-size:1.3rem ;
+    font-size: 1.3rem;
     margin: 0rem;
     margin-left: 5%;
     margin-bottom: 2%;
 }
 
 button {
-    padding:2%;
+    padding: 2%;
     font-size: 1.3rem;
     width: 75%;
     margin-left: 12.5%;
@@ -143,7 +145,7 @@ footer .link:hover {
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-size: 1.3rem;
-  }
+}
 
 .list-non-bullet {
     list-style: none;

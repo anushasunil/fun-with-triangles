@@ -6,17 +6,14 @@ const correctAnswer = ["90", "right-angled"];
 
 submitAnswerBtn.addEventListener("click", calculateScore)
 
-function calculateScore()
-{
+function calculateScore() {
     let score = 0;
     let index = 0;
-   
+
     const formResults = new FormData(quizForm);
-    for(let value of formResults.values())
-    {
+    for (let value of formResults.values()) {
         console.log(value, correctAnswer[index])
-        if(value === correctAnswer[index])
-        {
+        if (value === correctAnswer[index]) {
             score = score + 1;
         }
         index = index + 1;
