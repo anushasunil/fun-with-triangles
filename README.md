@@ -1,5 +1,5 @@
 # Fun with Triangles 🔺
-This project is a compilation of mini games related to Triangles!<br />
+This project is a compilation of mini-games related to Triangles!<br />
 - **Is Triangle?** <br />
     In this project, three input fields are present to take three angles from the user and it calculates whether the angles entered by the user forms a triangle or not.
 - **Quiz** <br />
